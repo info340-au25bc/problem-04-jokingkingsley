@@ -1,9 +1,7 @@
 body {
-    margin: 0.5rem;
+    margin: .5rem;
     background-color: #93b8d7;
-    color: white;
-    text-align: center;
-    font-family: 'Kaushan Script', fantasy;
+    color: white;   
 }
 
 nav a {
@@ -14,6 +12,21 @@ nav a {
 
 #social-links {
         display: none;
+}
+
+main {
+    text-align: center;
+    font-family: 'Kaushan Script', fantasy;
+    margin-top: 23vh;
+}
+
+main h1 {
+    font-size: 4rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 #hamburger-menu {
@@ -60,8 +73,6 @@ footer {
 @media (min-width: 992px) {
     body {
         background: url("../img/splash-lg.jpg");
-        background-position: center;
-        background-size: cover;
     }
 
     nav {
@@ -80,21 +91,5 @@ footer {
 @media (min-width: 1200px) {
     body {
         background: url("../img/splash-xl.jpg");
-        background-position: center;
-        background-size: cover;
     }
-}
-
-main {
-    margin-top: 23vh;
-
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-top: 2rem;
 }
